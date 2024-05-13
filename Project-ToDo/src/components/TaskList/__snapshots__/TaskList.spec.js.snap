@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskList component renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "marginTop": "11px",
+      "width": "100%",
+    }
+  }
+>
+  <div
+    className="task"
+  >
+    <label
+      className="checkbox"
+    >
+      <input
+        checked={false}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="checkmark"
+      />
+    </label>
+    <div
+      className="text name"
+    >
+      Task 1
+    </div>
+    <div
+      className="text desc"
+    >
+      Description 1
+    </div>
+    <button
+      className="deleteBtn"
+      onClick={[Function]}
+    >
+      <img
+        alt=""
+        src="assets/bin.png"
+      />
+    </button>
+  </div>
+  <div
+    className="task"
+  >
+    <label
+      className="checkbox"
+    >
+      <input
+        checked={true}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="checkmark"
+      />
+    </label>
+    <div
+      className="text name"
+    >
+      Task 2
+    </div>
+    <div
+      className="text desc"
+    >
+      Description 2
+    </div>
+    <button
+      className="deleteBtn"
+      onClick={[Function]}
+    >
+      <img
+        alt=""
+        src="assets/bin.png"
+      />
+    </button>
+  </div>
+</div>
+`;

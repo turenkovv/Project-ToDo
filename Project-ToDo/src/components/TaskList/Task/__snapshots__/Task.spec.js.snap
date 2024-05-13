@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Task component renders correctly 1`] = `
+<div
+  className="task"
+>
+  <label
+    className="checkbox"
+  >
+    <input
+      checked={false}
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <span
+      className="checkmark"
+    />
+  </label>
+  <div
+    className="text name"
+  >
+    Task Name
+  </div>
+  <div
+    className="text desc"
+  >
+    Task Description
+  </div>
+  <button
+    className="deleteBtn"
+    onClick={[Function]}
+  >
+    <img
+      alt=""
+      src="assets/bin.png"
+    />
+  </button>
+</div>
+`;
